@@ -1,5 +1,5 @@
 import Dashboard from './Dashboard/Dashboard';
+import PokemonDetails from './PokemonDetails/PokemonDetails';
 import NotFound from './NotFound/NotFound';
-import Pokemon from './Pokemon/Pokemon';
 
-export { Dashboard, NotFound, Pokemon };
+export { Dashboard, PokemonDetails, NotFound };

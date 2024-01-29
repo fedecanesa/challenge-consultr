@@ -1,3 +1,5 @@
-import PokemonApiResponse from './pokemons.models';
+import { PokemonApiResponse } from './pokemons.model';
+import { PkmnStats } from './pokemons.model';
+import { IPokemon } from './pokemon.model';
 
-export type { PokemonApiResponse };
+export type { PokemonApiResponse, PkmnStats, IPokemon };

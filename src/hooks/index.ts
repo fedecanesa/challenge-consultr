@@ -1,3 +1,13 @@
-import usePokemonsQuery from './usePokemonsQuery';
+import useFilteredPokemon from './useFilteredPokemon';
+import useInfiniteScroll from './useInfiniteScroll';
+import usePokemon from './usePokemon';
+import usePokemonSearch from './usePokemonSearch';
+import usePokemonsList from './usePokemonsList';
 
-export { usePokemonsQuery };
+export {
+    useFilteredPokemon,
+    usePokemon,
+    usePokemonsList,
+    usePokemonSearch,
+    useInfiniteScroll,
+};

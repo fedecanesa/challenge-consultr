@@ -1,4 +1,4 @@
-import { elementsEnum } from "./elementsEmun";
-import { routesEnum } from "./routesEnum";
+import { elementsEnum } from './elementsEmun';
+import { routesEnum } from './routesEnum';
 
-export {elementsEnum, routesEnum}
+export { elementsEnum, routesEnum };

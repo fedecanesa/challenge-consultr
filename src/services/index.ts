@@ -1,5 +1,4 @@
-import { getPokemons } from "./getPokemons";
+import { fetchPokemonsList } from './fetchPokemonsList';
+import { fetchPokemon } from './fetchPokemon';
 
-export {
-    getPokemons
-}
+export { fetchPokemonsList, fetchPokemon };
