@@ -1,74 +1,78 @@
 export const elementsEnum = [
     {
-        value: "bug",
-        name: "Bug" 
+        value: 'all',
+        name: 'All',
     },
     {
-        value: "dark",
-        name: "Dark" 
+        value: 'bug',
+        name: 'Bug',
     },
     {
-        value: "dragon",
-        name: "Dragon" 
+        value: 'dark',
+        name: 'Dark',
     },
     {
-        value: "electric",
-        name: "Electric" 
+        value: 'dragon',
+        name: 'Dragon',
     },
     {
-        value: "fairy",
-        name: "Fairy" 
+        value: 'electric',
+        name: 'Electric',
     },
     {
-        value: "fighting",
-        name: "Fighting" 
+        value: 'fairy',
+        name: 'Fairy',
     },
     {
-        value: "fire",
-        name: "Fire" 
+        value: 'fighting',
+        name: 'Fighting',
     },
     {
-        value: "flying",
-        name: "Flying" 
+        value: 'fire',
+        name: 'Fire',
     },
     {
-        value: "ghost",
-        name: "Ghost" 
+        value: 'flying',
+        name: 'Flying',
     },
     {
-        value: "grass",
-        name: "Grass" 
+        value: 'ghost',
+        name: 'Ghost',
     },
     {
-        value: "ground",
-        name: "Ground" 
+        value: 'grass',
+        name: 'Grass',
     },
     {
-        value: "ice",
-        name: "Ice" 
+        value: 'ground',
+        name: 'Ground',
     },
     {
-        value: "normal",
-        name: "Normal" 
+        value: 'ice',
+        name: 'Ice',
     },
     {
-        value: "poison",
-        name: "Poison" 
+        value: 'normal',
+        name: 'Normal',
     },
     {
-        value: "psychic",
-        name: "Psychic" 
+        value: 'poison',
+        name: 'Poison',
     },
     {
-        value: "rock",
-        name: "Rock" 
+        value: 'psychic',
+        name: 'Psychic',
     },
     {
-        value: "steel",
-        name: "Steel" 
+        value: 'rock',
+        name: 'Rock',
     },
     {
-        value: "water",
-        name: "Water" 
+        value: 'steel',
+        name: 'Steel',
+    },
+    {
+        value: 'water',
+        name: 'Water',
     },
 ];
