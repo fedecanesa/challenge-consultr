@@ -1,0 +1,128 @@
+.pokemon-details-container {
+    padding: 20px;
+
+    button {
+        background-color: #6b46bf;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #4a2c7b;
+        }
+    }
+    @media (max-width: 768px) {
+        padding: 10px;
+    }
+}
+
+.pokemon-details {
+    background: linear-gradient(180deg, #6b46bf 0%, #111c37 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+
+    .pokemon-details-header {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 28px;
+            margin: 0;
+            color: #fff; // Cambiado a blanco para que destaque en el gradiente
+        }
+    }
+
+    .pokemon-details-image {
+        text-align: center;
+        margin-bottom: 20px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .pokemon-details-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        margin-top: 20px;
+    }
+
+    .about-section,
+    .types-section,
+    .moves-section {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .divider {
+        width: 2px;
+        height: 100%;
+        background-color: #ccc;
+        margin: 0 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #fff; // Cambiado a blanco para que destaque en el gradiente
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+        color: #ddd; // Cambiado a un tono más claro para mejorar la legibilidad
+    }
+
+    @media (max-width: 768px) {
+        padding: 10px;
+
+        .pokemon-details-header {
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        .pokemon-details-info {
+            flex-direction: column;
+            align-items: stretch;
+
+            .about-section,
+            .types-section,
+            .moves-section {
+                margin-bottom: 10px;
+            }
+
+            .divider {
+                display: none;
+            }
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        li {
+            font-size: 14px;
+        }
+    }
+}
