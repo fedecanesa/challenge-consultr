@@ -1,0 +1,41 @@
+.filter-container {
+    display: flex;
+    overflow-x: auto;
+
+    .filter {
+        display: flex;
+        gap: 16px;
+        white-space: nowrap;
+        padding-bottom: 10px;
+        /*   display: flex;
+        overflow: hidden;
+        gap: 16px;
+        white-space: nowrap; // Evita que los botones se dividan en varias líneas
+        transition: transform 0.3s ease; */
+        /*   &::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #555;
+            border-radius: 3px;
+        }
+    */
+        .filter__button {
+            color: rgba(255, 255, 255, 0.43);
+            font-family: 'DM Mono';
+            font-size: 17.066px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 127.188%;
+            cursor: pointer;
+            text-decoration: none;
+            background: transparent;
+            border: none;
+        }
+
+        .selected {
+            color: #fff;
+        }
+    }
+}
