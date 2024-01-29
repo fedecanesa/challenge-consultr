@@ -1,7 +1,8 @@
-const Title = () => {
-  return (
-    <div>Title</div>
-  )
-}
+import React from 'react';
+import './title.scss';
 
-export default Title
+const Title: React.FC = () => {
+    return <h1 className='title'>Welcome to your trainer dashboard!</h1>;
+};
+
+export default Title;
