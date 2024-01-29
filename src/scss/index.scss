@@ -12,20 +12,20 @@
 }
 
 :root {
-    font-family:" DM Mono", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 
     color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background:linear-gradient(180deg, #6B46BF 0%, #111C37 100%)  ;
+
+    background: linear-gradient(180deg, #6b46bf 0%, #111c37 100%);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    font-family: 'DM Mono';
 }
 
 *::-webkit-scrollbar {
@@ -44,14 +44,11 @@
 }
 
 body {
-    margin: 0;
-   /*  display: flex; */
-/*     place-items: center;
-    justify-content: center; */
     min-width: 100vw;
     min-height: 100vh;
     font-size: 1.4rem;
     -webkit-font-smoothing: antialiased;
+    background: linear-gradient(180deg, #6b46bf 0%, #111c37 100%);
 }
 button {
     cursor: pointer;
