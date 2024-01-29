@@ -1,0 +1,74 @@
+$background-1: url('../../assets/images/Rectangle1.png');
+$background-2: url('../../assets/images/Rectangle2.png');
+$background-3: url('../../assets/images/Rectangle3.png');
+$background-4: url('../../assets/images/Rectangle4.png');
+
+.dashboard__pokemons--card {
+    width: 100%;
+    max-width: 80vw;
+    width: 176px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    text-transform: capitalize;
+
+    @mixin set-background($background, $index) {
+        &:nth-child(#{$index}) {
+            background-image: $background;
+        }
+    }
+
+    @include set-background($background-1, 4n - 3);
+    @include set-background($background-2, 4n - 2);
+    @include set-background($background-3, 4n - 1);
+    @include set-background($background-4, 4n - 0);
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 206px;
+        cursor: pointer;
+        img {
+            width: 90%;
+            height: 90%;
+
+            object-fit: cover;
+            object-position: center center;
+            overflow: hidden;
+            fill: rgba(0, 0, 0, 0.38);
+        }
+        .card__info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(
+                0,
+                0,
+                0,
+                0.01
+            ); // Fondo semi-transparente para mejorar la legibilidad del texto
+            padding: 10px 15px;
+
+            .card__info-name {
+                color: #fff;
+
+                font-family: 'DM Mono';
+                font-size: 19.514px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 127.188%;
+            }
+            .card__info-experience {
+                color: #fff;
+                font-family: 'DM Mono';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 127.188%;
+            }
+        }
+    }
+}
